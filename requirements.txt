@@ -1,0 +1,5 @@
+Flask-SocketIO
+ Flask
+ gevent
+ python-socketio
+ python-engineio
