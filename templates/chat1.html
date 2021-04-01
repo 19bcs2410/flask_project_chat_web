@@ -191,7 +191,7 @@ body{
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
 <script>
-    socket=io.connect("http://127.0.0.1:5000")
+    socket=io.connect("https://app-19bcs2410-app-flask-project-chat-web.zeet.app")
     socket.on('connect',function(){
     socket.emit('join_room',{room:"{{room}}",username:"{{username}}"})
     });
