@@ -1,4 +1,4 @@
-python==3.7
+
  Flask
  gevent-websocket
 Flask-SocketIO==4.3.1
